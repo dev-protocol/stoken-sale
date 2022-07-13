@@ -7,8 +7,11 @@ module.exports = {
     extend: {
       fontFamily: {
         Syne: ["Syne", "sans-serif"],
+        DMSans: ["DM Sans", "sans-serif"],
        },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
