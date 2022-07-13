@@ -3,13 +3,13 @@ export default function Navbar() {
   return (
     <div className="font-body flex items-center justify-between px-8 py-4 bg-black">
       <h1>
-        <a className="font-Syne py-4 font-bold text-gray-900 dark:text-white">
+        <a className="font-Syne py-4 font-bold text-white dark:text-white">
           KOGENJI
         </a>
       </h1>
         <div className="flex items-center gap-4">
           <ConnectButton />
-          {/* <div class="relative" ref="menu">
+          {/* <div class="relative">
             <button class="rounded border p-2" onclick="toggle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
